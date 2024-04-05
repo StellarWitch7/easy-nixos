@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+cd /etc/nixos
+sudo mkdir -p nixusers
+sudo chown 770 nixusers
+sudo git add --all
+sudo git commit -m "$(date)"
+sudo nohup git push &
+sudo nixos-rebuild switch --upgrade
+clean
