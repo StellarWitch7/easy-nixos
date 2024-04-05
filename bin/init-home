@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-
+if [ -z "$EDITOR" ]; then
+  EDITOR=nano
+fi
 
 cat /etc/nixos/skel/.home.nix >~/.home.nix
 $EDITOR ~/.home.nix
