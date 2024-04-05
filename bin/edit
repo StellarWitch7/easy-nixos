@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -z "$EDITOR" ]; then
+  EDITOR=nano
+fi
+
+$EDITOR ~/.home.nix
