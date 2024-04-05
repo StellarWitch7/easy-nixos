@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -z "$EDITOR" ]; then
+  EDITOR=nano
+fi
+
+sudo $EDITOR /etc/nixos/$1.nix
