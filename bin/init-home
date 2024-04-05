@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+
+
+cat /etc/nixos/skel/.home.nix >~/.home.nix
+$EDITOR ~/.home.nix
