@@ -7,4 +7,3 @@ sudo git add --all
 sudo git commit -m "$(date)"
 sudo nohup git push &
 sudo nixos-rebuild switch --upgrade
-clean
