@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 
+sudo nix-store --delete
 sudo nix-collect-garbage
 sudo nix-store --optimise
