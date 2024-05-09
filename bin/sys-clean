@@ -3,4 +3,3 @@
 sudo nix-store --delete
 sudo nix-collect-garbage -d
 sudo nix-store --optimise
-sudo sys-switch
