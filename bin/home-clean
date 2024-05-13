@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 home-manager expire-generations "-5 days"
-clean
+full-clean
