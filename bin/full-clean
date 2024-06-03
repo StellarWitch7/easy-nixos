@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-nix-store --delete
-nix-collect-garbage -d
-nix-store --optimise
+nix-store --delete --log-format bar-with-logs
+nix-collect-garbage -d --log-format bar-with-logs
+nix-store --optimise --log-format bar-with-logs
